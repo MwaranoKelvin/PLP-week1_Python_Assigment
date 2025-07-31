@@ -15,7 +15,7 @@ def calculator():
             print("Exiting the calculator. ")
             break
 
-# The following code is used to get the input from the user and perform the selected operation. I will use float to convert the input to a number and not integers so as to allow both.
+# The following code is used to get the input from the user and perform the selected operation. I will use float to allow the inputs to both. Incase the user enters a decimal number.
         try: 
             num1_input = input("Enter the first number: ")
             print(f"You entered: {num1_input}")
